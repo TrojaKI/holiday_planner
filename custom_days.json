@@ -1,0 +1,32 @@
+{
+  "countries": [
+    { "code": "AT", "province": "N" }
+  ],
+  "extra_holidays": [
+    {
+      "type": "fixed",
+      "month": 11,
+      "day": 15,
+      "name": "Hl. Leopold"
+    },
+    {
+      "type": "easter_offset",
+      "offset": -46,
+      "name": "Aschermittwoch"
+    },
+    {
+      "type": "nth_weekday",
+      "month": 10,
+      "weekday": 0,
+      "n": 2,
+      "name": "2. Montag im Oktober"
+    },
+    {
+      "type": "last_weekday",
+      "month": 6,
+      "weekday": 4,
+      "name": "Letzter Freitag im Juni"
+    }
+  ]
+}
+
